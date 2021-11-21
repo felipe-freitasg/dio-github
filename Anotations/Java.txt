@@ -13,6 +13,37 @@ Anotações sobre Java
 programa.java -> compilador (JDK) -> programa.class (bytecode) -> JRE junto com a jvm -> linguagem de máqina
 
 
-#Versão do java a ser utilizado
+# Versão do java a ser utilizado
 
 Java11 LTS(suporte a longo prazo)
+
+# Baixar openjdk site azul.com
+
+Baixa o openjdk lts versão 11 no formato .zip
+
+# Criar Pasta no disco C://Arquivos De programas com nome Java (C://Arquivos de Programas/Java)
+
+Criar pasta e descompactar o .zip na pasta para referenciar caminho na variável de ambiente
+
+
+# Copiar caminho da pasta que está com o openjdk (C:\Program Files\Java\zulu11.52.13-ca-jdk11.0.13-win_x64)
+
+Colocar nas variável de ambiente nome JAVA_HOME e no campo valor o caminho mas com \bin no final
+
+# executando programa java simples
+
+1 - criar um arquivo com extensão .java (programa.java)
+2 - ir no diretorio onde ta o arquivo pelo cmd e executar "javac programa.java"
+3 - será gerado o arquivo .class (programa.class)
+4 - executar "java programa.class"
+
+
+
+
+
+
+
+
+
+
+
