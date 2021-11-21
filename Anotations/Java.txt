@@ -1,1 +1,18 @@
 Anotações sobre Java
+
+
+# Configurações da IDE
+
+1 - Configuração do ambiente de desenvolvimento (instalação JDK e Git)
+2 - Instalação e configuração do Eclipse IDE
+3 - Instalação e configura~ção do Intellij IDEA IDE
+
+
+# Características do Java
+
+programa.java -> compilador (JDK) -> programa.class (bytecode) -> JRE junto com a jvm -> linguagem de máqina
+
+
+#Versão do java a ser utilizado
+
+Java11 LTS(suporte a longo prazo)
