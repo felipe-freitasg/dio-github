@@ -38,8 +38,29 @@ Colocar nas variável de ambiente nome JAVA_HOME e no campo valor o caminho mas 
 4 - executar "java programa.class"
 
 
+# ECLIPSE IDE
 
+CTRL + 3 => para procurar perspectivas de tela(Java, Debugger, Git)
 
+CTRL + N => procurar tipos de projetos para abrir (project java, create class ...)
+
+Pasta SRC => loca onde fica o código fonte
+
+CTRL + space => autocomplete
+
+clicar sobre package + f2 =>  editar nome do pacote
+
+CTRL + M => expande tela de código
+
+CTRL + D =>  apaga linha
+
+CTRL + 3 => Gerar método construtor , getters e setters, hasCode e equals, toString
+
+selecionar bloco de código + Alt + seta pra cima/baixo => mover bloco de código de lugar
+
+CTRL + SHIFT + F => refatorar código (reorganizar)
+
+CTRL + SHIFT + O => importa algum pacote que não esteja importado
 
 
 
