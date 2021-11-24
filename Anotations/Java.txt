@@ -62,6 +62,53 @@ CTRL + SHIFT + F => refatorar código (reorganizar)
 
 CTRL + SHIFT + O => importa algum pacote que não esteja importado
 
+selecionar bloco de código + CRTL + ALT + seta pra cima/baixo => duplicar código
+
+# GIT no Eclipse
+
+clicar com botão direito no projeto > team > share project > User or create repository in parent folder or project > selecionar o repositorio > Create Repository
+Escolher que mudanças vai querer que seja feita para ser feito commit, preencher commit e push com os dados do github
+
+
+# Uso do debugger
+
+marcar linha no qual será inicio para ser analisado e clicar com botão direito e depois em debugger
+
+
+
+
+# Usando Intellij IDEA
+
+CTRL + SHIFT + F10  => Executa o programa
+
+ALT + Insert  => gerar método construtor, getters e setters, equals e hashCode , toString
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
