@@ -1,0 +1,131 @@
+Anotações sobre Java
+
+
+# Configurações da IDE
+
+1 - Configuração do ambiente de desenvolvimento (instalação JDK e Git)
+2 - Instalação e configuração do Eclipse IDE
+3 - Instalação e configura~ção do Intellij IDEA IDE
+
+
+# Características do Java
+
+programa.java -> compilador (JDK) -> programa.class (bytecode) -> JRE junto com a jvm -> linguagem de máqina
+
+
+# Versão do java a ser utilizado
+
+Java11 LTS(suporte a longo prazo)
+
+# Baixar openjdk site azul.com
+
+Baixa o openjdk lts versão 11 no formato .zip
+
+# Criar Pasta no disco C://Arquivos De programas com nome Java (C://Arquivos de Programas/Java)
+
+Criar pasta e descompactar o .zip na pasta para referenciar caminho na variável de ambiente
+
+
+# Copiar caminho da pasta que está com o openjdk (C:\Program Files\Java\zulu11.52.13-ca-jdk11.0.13-win_x64)
+
+Colocar nas variável de ambiente nome JAVA_HOME e no campo valor o caminho mas com \bin no final
+
+# executando programa java simples
+
+1 - criar um arquivo com extensão .java (programa.java)
+2 - ir no diretorio onde ta o arquivo pelo cmd e executar "javac programa.java"
+3 - será gerado o arquivo .class (programa.class)
+4 - executar "java programa.class"
+
+
+# ECLIPSE IDE
+
+CTRL + 3 => para procurar perspectivas de tela(Java, Debugger, Git)
+
+CTRL + N => procurar tipos de projetos para abrir (project java, create class ...)
+
+Pasta SRC => loca onde fica o código fonte
+
+CTRL + space => autocomplete
+
+clicar sobre package + f2 =>  editar nome do pacote
+
+CTRL + M => expande tela de código
+
+CTRL + D =>  apaga linha
+
+CTRL + 3 => Gerar método construtor , getters e setters, hasCode e equals, toString
+
+selecionar bloco de código + Alt + seta pra cima/baixo => mover bloco de código de lugar
+
+CTRL + SHIFT + F => refatorar código (reorganizar)
+
+CTRL + SHIFT + C + após selecionar bloco de código => comenta todo bloco
+
+CTRL + SHIFT + O => importa algum pacote que não esteja importado
+
+selecionar bloco de código + CRTL + ALT + seta pra cima/baixo => duplicar código
+
+# GIT no Eclipse
+
+clicar com botão direito no projeto > team > share project > User or create repository in parent folder or project > selecionar o repositorio > Create Repository
+Escolher que mudanças vai querer que seja feita para ser feito commit, preencher commit e push com os dados do github
+
+
+# Uso do debugger
+
+marcar linha no qual será inicio para ser analisado e clicar com botão direito e depois em debugger
+
+
+
+
+# Usando Intellij IDEA
+
+CTRL + SHIFT + F10  => Executa o programa
+
+ALT + Insert  => gerar método construtor, getters e setters, equals e hashCode , toString
+
+CTRL + SHIFT + /  + selecionando bloco => comenta todo bloco de codigo selecionado
+
+CTRL + ALT + L => organizar código
+
+Selecionar linha + CTRL + D => Duplicar a linha
+
+CTRL + Y => deleta linha
+
+Selecionar linha + CTRL + SHIFT + seta cima/baixo => move a linha
+
+
+# GIT no Intellij
+
+VCS > Enable Version Control Integration / VCS > commit > fazer o cadastro da url 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
