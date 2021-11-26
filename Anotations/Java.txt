@@ -14,3 +14,65 @@
 	- nomes expressivos
 	- notação camel case
 	- quando constante (final) maiúscula e separadapor "_"
+
+
+- Tipos de dados
+	- byte
+	- short
+	- int
+	- long
+	- float
+	- double
+	- char
+	
+
+# Operadores Aritmeticos
+
+- pós-fixado : exp++ ou exp-- (exemplo: int i = k-- => i = k;k = k-1)
+- prefixado : ++exp ou --exp (exemplo : int i = ++k => i = k + 1)
+- aritmético : + , - , * , / , %
+- atribuição : = , += , -= , *= , /= e %=
+
+
+
+# Conversões (casting)
+
+É a conversão do tipo de dado de uma variável
+
+- Tipos
+	- Upcast (implícito) - conversão de um tipo de menor capacidade para um de maior capacidade (exemplo : int para double)
+	- Downcast (explícito) - conversão de um tipo de maior capacidade para um de menor capacidade (exemplo : float para char)
+
+
+exemplo : byte b1 ; short s1 = 100; b1 = (byte)s1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
