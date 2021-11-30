@@ -49,6 +49,30 @@ exemplo : byte b1 ; short s1 = 100; b1 = (byte)s1;
 
 
 
+# Operadores Relacionais
+
+
+- Igualdade ==
+- Diferença !=
+- Maior >
+- Menor <
+- Menor igual <=
+- Maior igual >=
+
+
+# Operadores Lógicos
+
+- Conjunção (&&)
+- Disjução (||)
+- Disjunção Exclusiva (verdadeiro quando quando são opostos) (^)
+- Negação (!)
+
+
+# Controle de Fluxo
+
+- Decisão: if - else, if - else if, switch e operador ternário (condição ? true : false)
+- Repetição: for - while - do while
+- Interrupção: break, continue e return
 
 
 
