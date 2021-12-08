@@ -1,4 +1,33 @@
-Anotações sobre Java
+# Instalando Java Ubuntu
+
+java --version e executar o primeiro comando recomendado
+
+sudo update-alternatives --config java  => Verifica caminho da instalação do java
+
+retornará o caminho : /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+
+editar o arquivo .bashrc => Editar para colocar a variável de ambiente no .bashrc
+
+ir no fim do arquivo e colocar: 
+JAVA_HOME = /usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME
+
+# Instalando Git
+
+sudo apt-get install git-all
+
+git --version
+
+configurar o email e nome =>
+
+git config --global user.name "Nome"
+git config --global user.email "email@email.com"
+
+
+
+
+# Anotações sobre Java
 
 
 # Configurações da IDE
